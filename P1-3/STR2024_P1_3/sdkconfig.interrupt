@@ -385,6 +385,12 @@ CONFIG_PARTITION_TABLE_MD5=y
 # end of Partition Table
 
 #
+# Configuración Práctica 1 parte 3
+#
+CONFIG_GPIO_PIN=13
+# end of Configuración Práctica 1 parte 3
+
+#
 # Compiler options
 #
 CONFIG_COMPILER_OPTIMIZATION_DEBUG=y

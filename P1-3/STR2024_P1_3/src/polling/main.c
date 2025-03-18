@@ -13,8 +13,10 @@ void app_main(void)
             .pin_bit_mask = (1ULL << CONFIG_GPIO_PIN),
             .pull_down_en = GPIO_PULLDOWN_DISABLE,
             .pull_up_en = GPIO_PULLUP_ENABLE};
+
     gpio_config(&io_conf);
     uint8_t gpio_value;
+    
     while (1)
     {
         gpio_value = gpio_get_level(CONFIG_GPIO_PIN);
