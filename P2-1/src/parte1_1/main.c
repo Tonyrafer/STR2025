@@ -4,7 +4,7 @@
 #include "esp_timer.h"
 #include "esp_log.h"
 #include "sdkconfig.h"
-#define TEMP_MATRIX_SIZE 500
+#define TEMP_MATRIX_SIZE 110
 
 
 static const char* TAG = "P2_1_1";
